@@ -1,10 +1,10 @@
-CREATE TABLE IF NOT EXISTS roles (
+CREATE TABLE IF NOT EXISTS my_pet.roles (
   id                    INT(11) NOT NULL AUTO_INCREMENT,
   name                  VARCHAR(50) DEFAULT NULL,
   PRIMARY KEY (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
-CREATE TABLE IF NOT EXISTS users_roles (
+CREATE TABLE IF NOT EXISTS my_pet.users_roles (
   user_id               INT(11) NOT NULL,
   role_id               INT(11) NOT NULL,
 

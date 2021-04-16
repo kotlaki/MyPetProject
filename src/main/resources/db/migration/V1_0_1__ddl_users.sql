@@ -1,6 +1,6 @@
 SET FOREIGN_KEY_CHECKS = 0;
 
-CREATE TABLE IF NOT EXISTS users (
+CREATE TABLE IF NOT EXISTS my_pet.users (
   id                    INT(11) NOT NULL AUTO_INCREMENT,
   username              VARCHAR(50) NOT NULL,
   password              CHAR(80) NOT NULL,
